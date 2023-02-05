@@ -5,8 +5,7 @@ set -eo pipefail
 echo '    Welcome to Openfish DE build script! This script works on most Debian/Ubuntu-based distros and aims at making Openfish DE usable on other Linux distros.'
 echo '    This script can build and install one component / all of the components of Openfish DE automatically based on your choice.'
 # shellcheck disable=SC2016
-echo '    By default, all of the git repositories will be cloned to ~/piscesys from https://gitlab.com/piscesys . You can change them by simply modifing $REPO_PATH and $GIT_REPO_URL.'
-echo '    In case of errors, you can report them to https://gitlab.com/piscesys/Build.sh/issues .'
+echo '    By default, all of the git repositories will be cloned to ~/cutefishos from https://github.com/cutefishos. You can change them by simply modifing $REPO_PATH and $GIT_REPO_URL.'
 echo '------'
 echo 'Authors: Moore2253: Original author'
 echo '         wujunyi:   Co-author'
